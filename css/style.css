@@ -31,14 +31,14 @@ span.nav-icon {
 }
 
 div.logo {
-    color: #146192;
+    color: #0B476D;
     font-size: 30px;
     margin-left: 25px;
     font-weight: bold;
 }
 
 div.logo > span > a {
-    color: #146192;
+    color: #0B476D;
     text-decoration: none;
 }
 
@@ -58,24 +58,24 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    color: #146192;
+    color: #0B476D;
     font-weight: bold;
 }
 
 a.active {
-    color: #146192;
+    color: #0B476D;
     font-weight: bold;
 }
 
 div.social-icons > ul > li {
     display: inline;
-    color: #146192;
+    color: #0B476D;
     margin-right: 25px;
     font-size: 22px;
 }
 
 div.social-icons > ul > li > a {
-    color: #146192;
+    color: #0B476D;
 }
 
 div.social-icons > ul > li > a:hover {
@@ -145,8 +145,8 @@ div.button-1 {
 }
 
 div.button-1:hover {
-    background-color: #146192;
-    border: 2px solid #146192;
+    background-color: #0B476D;
+    border: 2px solid #0B476D;
 }
 
 div.button-2 {
@@ -155,8 +155,8 @@ div.button-2 {
 }
 
 div.button-2:hover {
-    background-color: #146192;
-    border: 2px solid #146192;
+    background-color: #0B476D;
+    border: 2px solid #0B476D;
     color: #fff;
 }
 
@@ -175,7 +175,7 @@ a.hero-button-link-1 {
 /* THREE CARDS SECTION */
 
 div.what-we-do-banner {
-    background: #146192;
+    background: #0B476D;
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -290,7 +290,7 @@ span.bottom-button {
 }
 
 span.bottom-button:hover {
-    background: #146192;
+    background: #0B476D;
 }
 
 a.bottom-button-link {
@@ -307,7 +307,7 @@ div.join-team-section {
 
 hr.horizontal-line { 
     height: 0px;
-    border: 1.5px solid #146192;
+    border: 1.5px solid #0B476D;
     border-radius: 50%;
     width: 50%;
     margin-bottom: 25px;
@@ -387,13 +387,13 @@ div.footer-widget-text > p > a:hover {
 div.footer-bottom {
     text-align: center;
     padding: 15px;
-    color: #0B476D;
+    color: #333333;
     font-size: 16px;
 }
 
 a.theme-name,
 a.author {
-    color: #0077FF;
+    color: #0B476D;
     text-decoration: none;
 }
 a.theme-name:hover,
@@ -454,7 +454,7 @@ div.the-content {
 
 aside.sidebar-content {
     width: 30%;
-    /* border: 2px solid #146192; */
+    /* border: 2px solid #0B476D; */
     border-left: 1px solid #0B476D;
     padding: 0px 25px 0px 25px;
     margin-bottom: 8px;
@@ -510,13 +510,13 @@ h2.post-title {
 }
 
 div.post-author-date {
-    color: #146192;
+    color: #0B476D;
     font-size: 14px;
     padding-bottom: 14px;
 }
 
 a.author-link {
-    color: #146192;
+    color: #0B476D;
 }
 
 div.post-excerpt {
@@ -533,7 +533,7 @@ div.read-more-button {
     font-size: 17px;
 }
 div.read-more-button:hover {
-    background: #146192;
+    background: #0B476D;
 }
 
 a.read-more-link:link {
@@ -645,7 +645,7 @@ div.about-grid-item-4 {
     background: #0077FF;
 }
 div.about-grid-item-3 {
-    background: #146192;
+    background: #0B476D;
 }
 div.about-grid-item-2 {
     background: #0B476D;
@@ -838,22 +838,22 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
-    color: #146192;
+    color: #0B476D;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
   }
 ::-moz-placeholder {
-    color: #146192;
+    color: #0B476D;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
   }
 :-ms-input-placeholder {
-    color: #146192;
+    color: #0B476D;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
   }
 :-moz-placeholder {
-    color: #146192;
+    color: #0B476D;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
   }
@@ -861,7 +861,7 @@ textarea {
 input[type=submit] {
     background-color: #fff;
     border: none;
-    color: #146192;
+    color: #0B476D;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
@@ -873,7 +873,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #fff;
     border: none;
-    color: #146192;
+    color: #0B476D;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
