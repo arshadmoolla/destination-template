@@ -18,7 +18,7 @@ div.top-bar {
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     left: 0px;
     right: 0px;
@@ -90,9 +90,9 @@ div.hero-section {
     background-image: url(../images/hero-image.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: calc(100vh - 120px);
-    margin-bottom: 100px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    /* height: calc(100vh - 120px); */
+    margin-bottom: 75px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
 }
@@ -125,6 +125,7 @@ div.hero-buttons {
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 div.button-1,
@@ -190,15 +191,15 @@ div.text-below-banner {
     color: #333333;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     padding: 5px;
 }
 
 div.three-cards-container {
     display: flex;
     text-align: center;
-    margin-bottom: 100px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 75px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 div.card {
@@ -239,7 +240,7 @@ div.card-content > p {
 div.partner-head {
     font-size: 28px;
     color: #0B476D;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     text-align: center;
 }
 
@@ -248,7 +249,7 @@ div.image-text-block {
     background: #0077FF;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 img.block-image-image {
@@ -267,14 +268,14 @@ div.block-text {
 
 div.need-help-section {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     padding: 5px;
 }
 
 div.need-help-head {
     font-size: 28px;
     color: #0B476D;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 div.need-help-subhead {
@@ -301,7 +302,7 @@ a.bottom-button-link {
 /* JOIN TEAM SECTION */
 
 div.join-team-section {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     padding: 5px;
 }
 
@@ -414,7 +415,7 @@ header.page-header {
     padding-left: 50px;
     margin-bottom: 100px;
     color: #fff;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 header.page-header > h1 {
@@ -429,6 +430,7 @@ header.page-header > h2 {
 div.content {
     display: flex;
     margin-bottom: 100px;
+    color: #333333;
 }
 
 /* MAIN SECTION */
@@ -441,7 +443,7 @@ img.featured-image {
     width: 80%;
     margin-left: 50px;
     margin-bottom: 50px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 div.the-content {
@@ -496,7 +498,7 @@ img.post-image {
     object-fit: cover;
     width: 267px;
     height: 150px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 div.post-details {
@@ -573,7 +575,7 @@ div.page-arrow-right {
     justify-content: center;
     padding: 2px;
     border-radius: 7px;
-    color: #0B476D;
+    color: #333333;
     text-decoration: none;
     font-size: 17px;
 }
@@ -633,6 +635,7 @@ span.about-two-column-1-heading {
 span.about-two-column-1-text {
     font-size: 17px;
     margin-bottom: 25px;
+    color: #333333;
 }
 
 div.about-grid-container {
@@ -656,7 +659,7 @@ div.about-grid-item-1 {
 
 div.about-grid-container > div {
     padding: 40px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     color: #fff;
     font-size: 22px;
 }
@@ -680,7 +683,7 @@ div.oti-container {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     padding-top: 25px;
     /* padding-left: 15px; */
     padding-right: 15px;
@@ -693,7 +696,7 @@ div.oti-card-container {
 
 img.card-image {
     width: 280px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card-image-container {
@@ -775,13 +778,13 @@ div.contact-info-phone-info-content,
 div.contact-info-email-info-content,
 div.contact-info-address-info-content {
     font-size: 16px;
-    color: #5a5a5a;
+    color: #333333;
 }
 
 /* CONTACT FORM SECTION  */
 div.contact-form-container {
     margin: 50px 50px 100px 50px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     background: #0077FF;
     padding: 50px;
     display: flex;
@@ -802,7 +805,7 @@ div.contact-form-content-text {
 
 iframe.google-map {
     margin-bottom: 50px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 250px;
 }
@@ -866,8 +869,10 @@ input[type=submit] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     border-radius: 7px;
+    border: 1px solid #fff;
+    transition: 0.3s;
 }
 
 input[type=submit]:hover {
@@ -911,6 +916,10 @@ input[type=submit]:hover {
         float: right;
         cursor: pointer;
         margin-right: 18px;
+    }
+
+    nav > ul {
+        text-align: right;
     }
 
     nav > ul > li {
@@ -960,6 +969,7 @@ input[type=submit]:hover {
     div.hero-buttons {
         justify-content: center;
         margin-right: 0px;
+        margin-bottom: 27px;
     }
     
     div.button-1,
@@ -996,7 +1006,7 @@ input[type=submit]:hover {
 
     div.three-cards-container {
         flex-direction: column;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
         margin-bottom: 50px;
     }
 
@@ -1022,7 +1032,7 @@ input[type=submit]:hover {
 
     div.partner-head {
         font-size: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     div.image-text-block {
@@ -1051,7 +1061,7 @@ input[type=submit]:hover {
 
     div.need-help-head {
         font-size: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     div.need-help-subhead {
@@ -1061,7 +1071,7 @@ input[type=submit]:hover {
 
     span.bottom-button {
         padding: 12px 24px;
-        font-size: 14.5px;
+        font-size: 16px;
     }
 
     /* JOIN TEAM SECTION */
@@ -1170,6 +1180,7 @@ input[type=submit]:hover {
     img.featured-image {
         width: 350px;
         margin-left: 25px;
+        margin-bottom: 25px;
     }
 
     div.the-content {
@@ -1212,7 +1223,7 @@ input[type=submit]:hover {
 
     img.post-image {
         object-fit: cover;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
     }
 
     div.post-details {
@@ -1262,7 +1273,7 @@ input[type=submit]:hover {
     /* TWO COLUMN SECTION */
 
     div.about-two-column-container {
-        padding: 0px 25px 50px 25px;
+        padding: 0px 25px 25px 25px;
         align-items: center;
         flex-direction: column;
     }
@@ -1284,7 +1295,7 @@ input[type=submit]:hover {
     }
 
     .about-contact-button {
-        margin-bottom: 75px;
+        margin-bottom: 50px;
         display: flex;
         justify-content: center;
     }
@@ -1322,7 +1333,7 @@ input[type=submit]:hover {
 
     div.oti-container {
         padding-top: 20px;
-        margin-bottom: 75px;
+        margin-bottom: 25px;
         align-items: center;
         padding-right: 0px;
     }
@@ -1353,7 +1364,7 @@ input[type=submit]:hover {
     /* CONTACT INFO SECTION */
 
     div.contact-info-container {
-        padding: 0px 25px 25px 25px;
+        padding: 0px 25px 0px 25px;
         flex-direction: column;
     }
 
@@ -1386,7 +1397,7 @@ input[type=submit]:hover {
     /* CONTACT FORM SECTION  */
 
     div.contact-form-container {
-        margin: 0px 25px 50px 25px;
+        margin: 0px 0px 50px 0px;
         padding: 25px;
         flex-direction: column;
         text-align: center;
@@ -1404,25 +1415,10 @@ input[type=submit]:hover {
     input[type=text],
     input[type=email],
     input[type=number] {
-        width: 80%;
+        width: 90%;
     }
 
     textarea {
-        width: 80%;
+        width: 90%;
     }
-}
-
-/* SCREENS BETWEEN 600PX AND 860PX */
-
-@media screen and (max-width: 860px) and (min-width: 600px) {
-    
-    /* HERO SECTION */
-
-    /* div.hero-text {
-        margin-top: 70px;
-    }
-
-    div.hero-text-1 {
-        font-size: 40px;
-    } */
 }
