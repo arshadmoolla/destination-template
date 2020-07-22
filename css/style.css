@@ -228,7 +228,7 @@ div.card-content {
     position: relative;
     top: -10px;
     z-index: -1;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 div.card-content > p {
@@ -261,7 +261,7 @@ img.block-image-image {
 div.block-text {
     padding: 25px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* NEED HELP SECTION */
@@ -440,7 +440,7 @@ main.main-content {
 }
 
 img.featured-image {
-    width: 80%;
+    width: 70%;
     margin-left: 50px;
     margin-bottom: 50px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -449,7 +449,7 @@ img.featured-image {
 div.the-content {
     padding-right: 25px;
     padding-left: 50px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 /* SIDEBAR SECTION */
@@ -474,7 +474,7 @@ div.sidebar-widget-heading {
 
 div.sidebar-widget-text {
     color: #333333;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 div.sidebar-widget-text > p > a {
@@ -522,7 +522,7 @@ a.author-link {
 }
 
 div.post-excerpt {
-    font-size: 17px;
+    font-size: 16px;
     padding-bottom: 20px;
 }
 
@@ -532,7 +532,7 @@ div.read-more-button {
     color: #fff;
     padding: 7px 14px;
     border-radius: 7px;
-    font-size: 17px;
+    font-size: 18px;
 }
 div.read-more-button:hover {
     background: #0B476D;
@@ -558,7 +558,7 @@ div.page-1 {
     border-radius: 7px;
     color: #fff;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     background: #0077FF;
 }
 
@@ -577,7 +577,7 @@ div.page-arrow-right {
     border-radius: 7px;
     color: #333333;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 div.page-1:hover,
@@ -633,7 +633,7 @@ span.about-two-column-1-heading {
 }
 
 span.about-two-column-1-text {
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 25px;
     color: #333333;
 }
@@ -1000,8 +1000,10 @@ input[type=submit]:hover {
     }
 
     div.text-below-banner {
-        font-size: 14.5px;
+        font-size: 16px;
         margin-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     div.three-cards-container {
@@ -1047,7 +1049,7 @@ input[type=submit]:hover {
     }
 
     div.block-text {
-        padding: 5px;
+        padding: 0px 15px 5px 15px;
         color: #fff;
         font-size: 14.5px;
         text-align: center;
@@ -1090,7 +1092,7 @@ input[type=submit]:hover {
 
     div.visit-blog {
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     span.blog-link-text {
@@ -1208,7 +1210,7 @@ input[type=submit]:hover {
 
     div.sidebar-widget-text {
         color: #333333;
-        font-size: 13.5px;
+        font-size: 14.5px;
     }
 
     /* BLOG POSTS SECTION */
@@ -1250,7 +1252,7 @@ input[type=submit]:hover {
     div.read-more-button {
         padding: 7px 14px;
         border-radius: 7px;
-        font-size: 14.5px;
+        font-size: 16px;
     }
 
     div.pagination {
@@ -1401,6 +1403,7 @@ input[type=submit]:hover {
         padding: 25px;
         flex-direction: column;
         text-align: center;
+        font-size: 14.5px;
     }
 
     iframe.google-map {
