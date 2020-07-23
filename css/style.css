@@ -107,7 +107,7 @@ div.hero-text {
 div.hero-text-1 {
     color: #0B476D;
     font-size: 55px;
-    font-family: Tahoma, 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-right: 50px;
     margin-bottom: 25px;
@@ -909,6 +909,11 @@ input[type=submit]:hover {
 
     .logo-img {
         width: 175px;
+    }
+
+    .fa-bars {
+        font-size: 30px;
+        color: #0b476d;
     }
 
     span.nav-icon {
